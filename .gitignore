@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+
+# Build output directory
+dist/
+
+# Log files
+*.log
+
+# Environment configuration files
+.env
+
+# IDE and editor specific directories and files
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.sublime-*
+*.iml
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
