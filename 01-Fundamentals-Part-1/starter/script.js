@@ -1,3 +1,57 @@
+// Math operators:
+const now = 2037;
+
+const ageJonas = now - 1988;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2.
+
+const firstName = 'Jerome';
+const lastName = 'Million-Rousseau';
+console.log(firstName + lastName);
+// This returns: JeromeMillion-Rousseau
+
+console.log(firstName + ' ' + lastName);
+// There is a better way of concatenate these strings: template strings.
+// More on that later.
+
+// typeof is also an operator for example.
+
+//Assignment operators:
+let x = 10 + 5;
+console.log(x);
+
+x += 10;
+// x = x + 10;
+console.log(x);
+
+x *= 4;
+console.log(x);
+
+x++;
+// x = x + 1;
+console.log(x);
+
+x--;
+console.log(x);
+
+// Comparison operators:
+console.log(ageJonas > ageSarah);
+// This will return true.
+
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge, typeof isFullAge);
+
+console.log(now - 1991 > now - 2018)
+
+
+/* ====================
+CODE FROM 13. LET, CONST AND VAR
+
 // We declare the age variable:
 let age = 30;
 // We then mutate that variable (reassign a value to that variable):
@@ -26,7 +80,7 @@ console.log(lastName);
 // It creates a property on global object.
 // Bad idea. More on this later.
 
-
+==================== */
 
 
 /* ====================
