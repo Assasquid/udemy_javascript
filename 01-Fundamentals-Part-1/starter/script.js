@@ -1,3 +1,26 @@
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018)
+// The two soustractions are executed before the comparison.
+// Because JavaScript as a well defined order of operator precedence.
+// See mdn*'s precedence table: operator precedence
+// *Mozilla Developper Network
+
+// Assignment is done from right to left:
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10 -> x = 10.
+console.log(x, y);
+
+// Highest precedence: grouping:
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
+
+
+/* ====================
+CODE FROM 14. BASIC OPERATORS
+
 // Math operators:
 const now = 2037;
 
@@ -48,6 +71,9 @@ console.log(isFullAge, typeof isFullAge);
 
 console.log(now - 1991 > now - 2018)
 
+====================
+==================== */
+
 
 /* ====================
 CODE FROM 13. LET, CONST AND VAR
@@ -80,6 +106,7 @@ console.log(lastName);
 // It creates a property on global object.
 // Bad idea. More on this later.
 
+====================
 ==================== */
 
 
@@ -110,6 +137,7 @@ console.log(typeof null);
 // But it's not corrected, for legacy reasons.
 // It should return null.
 
+====================
 ==================== */
 
 
@@ -131,4 +159,5 @@ let myCurrentJob = 'Teacher';
 let job1 = 'Programmer';
 let job2 = 'Teacher';
 
+====================
 ==================== */
