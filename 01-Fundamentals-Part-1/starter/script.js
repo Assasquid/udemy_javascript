@@ -1,3 +1,6 @@
+/* ====================
+CODE FROM 15. OPERATOR PRECEDENCE
+
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -16,6 +19,9 @@ console.log(x, y);
 // Highest precedence: grouping:
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+
+====================
+==================== */
 
 
 /* ====================
