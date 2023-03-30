@@ -1,9 +1,16 @@
-// /* DATA 1:
-const markWeight = 78;
-const markHeight = 1.69;
+// DATA 1:
+// const markWeight = 78;
+// const markHeight = 1.69;
 
-const johnWeight = 95;
-const johnHeight = 1.88;
+// const johnWeight = 92;
+// const johnHeight = 1.95;
+
+// DATA 2:
+const markWeight = 95;
+const markHeight = 1.88;
+
+const johnWeight = 85;
+const johnHeight = 1.76;
 
 const markBMI = markWeight / markHeight ** 2;
 const johnBMI = johnWeight / johnHeight ** 2;
@@ -13,7 +20,6 @@ console.log(johnBMI);
 
 const markHasHigherBMI = markBMI > johnBMI;
 console.log(markHasHigherBMI);
-// */
 
 // JavaScript Fundamentals – Part 1
 // Coding Challenge #1
