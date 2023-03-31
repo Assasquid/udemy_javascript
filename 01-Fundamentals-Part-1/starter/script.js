@@ -1,3 +1,26 @@
+const firstName = 'Jerome';
+const job = 'front end developer';
+const birthYear = 1988;
+const year = 2037;
+
+const jerome = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+console.log(jerome);
+
+// Since ES6, tool to handle these complex strings easily: Template literals:
+// Use back ticks, thenit works like in Ruby:
+const jeromeNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(jeromeNew);
+
+// Multiline string before ES6:
+console.log('String with \n\
+multiple \n\
+lines');
+
+// Multiline string with ES6:
+console.log(`String with
+multiple
+lines`);
+
 /* ====================
 CODE FROM 15. OPERATOR PRECEDENCE
 
