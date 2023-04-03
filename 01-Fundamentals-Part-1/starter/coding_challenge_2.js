@@ -15,13 +15,13 @@ const johnHeight = 1.76;
 const markBMI = markWeight / markHeight ** 2;
 const johnBMI = johnWeight / johnHeight ** 2;
 
-console.log(markBMI);
-console.log(johnBMI);
+console.log(markBMI, johnBMI);
 
-const markHasHigherBMI = markBMI > johnBMI;
-console.log(markHasHigherBMI);
+// const markHasHigherBMI = markBMI > johnBMI;
 
-if (markHasHigherBMI) {
+// if (markHasHigherBMI) {
+// It's more commong to write the condition directly as follow:
+if (markBMI > johnBMI) {
     console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
 } else {
     console.log(`Mark's BMI (${markBMI}) is lower than John's (${johnBMI})!`);
