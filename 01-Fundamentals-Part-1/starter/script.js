@@ -1,3 +1,14 @@
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+    console.log('Sarah can start driving license 🚗 !');
+}
+
+
+/* ====================
+CODE FROM 17. STRINGS AND TEMPLATE LITERALS 
+
 const firstName = 'Jerome';
 const job = 'front end developer';
 const birthYear = 1988;
@@ -20,6 +31,10 @@ lines');
 console.log(`String with
 multiple
 lines`);
+
+====================
+==================== */
+
 
 /* ====================
 CODE FROM 15. OPERATOR PRECEDENCE
