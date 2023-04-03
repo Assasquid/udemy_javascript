@@ -8,6 +8,16 @@ if (isOldEnough) {
     console.log(`Sarah is too young. Wait another ${yearsLeft} years 😔.`);
 }
 
+// if else statement is called a 'control structure'.
+
+const birthYear = 1988;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
 
 /* ====================
 CODE FROM 17. STRINGS AND TEMPLATE LITERALS 
