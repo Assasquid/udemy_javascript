@@ -1,3 +1,6 @@
+/* ====================
+CODE FROM 18. TAKING DECISIONS: IF/ELSE STATEMENTS 
+
 const age = 15;
 const isOldEnough = age >= 18;
 
@@ -18,6 +21,10 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+====================
+==================== */
+
 
 /* ====================
 CODE FROM 17. STRINGS AND TEMPLATE LITERALS 
