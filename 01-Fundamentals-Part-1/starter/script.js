@@ -1,3 +1,42 @@
+
+//TYPE CONVERSION:
+const inputYear = '1991';
+console.log(typeof inputYear);
+console.log(Number(inputYear), inputYear);
+//Original value is not yet converted though:
+console.log(typeof inputYear);
+console.log(inputYear + 18);
+//To perform the calculation:
+console.log(Number(inputYear) + 18);
+
+//If we try to convert a non number string to a number:
+console.log(Number('Jerome'));
+
+console.log(String(23));
+
+//TYPE COERCION:
+console.log('I am ' + 34 + ' years old.');
+//Here the + operator will automatically convert the 34 number to a string.
+
+console.log('24' - '10' - 3);
+// Here it converted the strings to numbers.
+// The - operator triggers the opposite conversion.
+
+console.log('Jerome' - '10' - 3);
+
+console.log('34' * '2');
+//The numbers as strings will be converted to numbers.
+
+console.log('34' / '2');
+
+let n = '1' + 1;
+console.log(n);
+//The + 1 has been converted to a string and concatinated.
+n = n - 1;
+console.log(n);
+//The n has beem converted to a number due to the -.
+
+
 /* ====================
 CODE FROM 18. TAKING DECISIONS: IF/ELSE STATEMENTS 
 
