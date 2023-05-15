@@ -1,5 +1,5 @@
-let country = 'United-Kingdom';
-let continent = 'Europe';
-let population = 67;
+// let country = 'United-Kingdom';
+// let continent = 'Europe';
+// let population = 67;
 
-console.log(country, continent, population);
+// console.log(country, continent, population);
