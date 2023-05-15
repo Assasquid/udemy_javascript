@@ -1,4 +1,7 @@
 
+/* ====================
+CODE FROM 18. TAKING DECISIONS: IF/ELSE STATEMENTS 
+
 //TYPE CONVERSION:
 const inputYear = '1991';
 console.log(typeof inputYear);
@@ -35,6 +38,9 @@ console.log(n);
 n = n - 1;
 console.log(n);
 //The n has beem converted to a number due to the -.
+
+====================
+==================== */
 
 
 /* ====================
