@@ -2,17 +2,21 @@
 const age = 18;
 if (age === 18) console.log('You are old enough!');
 
-const favourite = prompt("What's your favourite number?");
+const favourite = Number(prompt("What's your favourite number?"));
 console.log(favourite);
 console.log(typeof favourite);
 
-// if (favourite == 18) { //'18' == 18
-//     console.log('Cool! 18 is an amazing number!');
-// }
-
-if (favourite === 18) { //'18' === 18
+if (favourite === 18) { //18 === 18
     console.log('Cool! 18 is an amazing number!');
+} else if (favourite === 7) {
+    console.log('7 is also a cool number!');
+} else if (favourite === 9) {
+    console.log('9 is not too bad either!')
+} else {
+    console.log('Number is not 18 or 7, not even 9...')
 }
+
+if (favourite !== 18) console.log('Why not 18?');
 
 
 /* ====================
