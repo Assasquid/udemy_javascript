@@ -1,4 +1,7 @@
 
+/* ====================
+CODE FROM 22: EQUALITY OPERATORS
+
 const age = 18;
 if (age === 18) console.log('You are old enough!');
 
@@ -18,9 +21,12 @@ if (favourite === 18) { //18 === 18
 
 if (favourite !== 18) console.log('Why not 18?');
 
+====================
+==================== */
+
 
 /* ====================
-CODE FROM 20: TYPE CONVERSION AND TYPE COERCION
+CODE FROM 21: TRUTHY AND FALSY VALUES
 
 console.log(Boolean(0));
 console.log(Boolean(undefined));
