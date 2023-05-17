@@ -1,4 +1,7 @@
 
+/* ====================
+CODE FROM 20: TYPE CONVERSION AND TYPE COERCION
+
 console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Jerome'));
@@ -16,12 +19,15 @@ let height;
 if (height) {
     console.log('YAY! Height is defined!');
 } else {
-    console.log('Height is UNDEINFED...');
+    console.log('Height is UNDEFINED...');
 }
+
+====================
+==================== */
 
 
 /* ====================
-CODE FROM 18. TAKING DECISIONS: IF/ELSE STATEMENTS 
+CODE FROM 20: TYPE CONVERSION AND TYPE COERCION
 
 //TYPE CONVERSION:
 const inputYear = '1991';
