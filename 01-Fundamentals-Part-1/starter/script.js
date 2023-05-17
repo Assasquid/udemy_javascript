@@ -1,4 +1,20 @@
 
+const age = 18;
+if (age === 18) console.log('You are old enough!');
+
+const favourite = prompt("What's your favourite number?");
+console.log(favourite);
+console.log(typeof favourite);
+
+// if (favourite == 18) { //'18' == 18
+//     console.log('Cool! 18 is an amazing number!');
+// }
+
+if (favourite === 18) { //'18' === 18
+    console.log('Cool! 18 is an amazing number!');
+}
+
+
 /* ====================
 CODE FROM 20: TYPE CONVERSION AND TYPE COERCION
 
