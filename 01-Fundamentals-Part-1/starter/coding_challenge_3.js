@@ -1,6 +1,10 @@
-const dolphinsGameOne = 96;
-const dolphinsGameTwo = 108;
-const dolhpinsGameThree = 89;
+// const dolphinsGameOne = 97;
+// const dolphinsGameTwo = 112;
+// const dolhpinsGameThree = 101;
+
+const dolphinsGameOne = 97;
+const dolphinsGameTwo = 112;
+const dolhpinsGameThree = 101;
 
 const dolphinsTotal = dolphinsGameOne + dolphinsGameTwo + dolhpinsGameThree;
 console.log(dolphinsTotal);
@@ -8,9 +12,13 @@ console.log(dolphinsTotal);
 const dolphinsAverage = dolphinsTotal / 3;
 console.log(dolphinsAverage);
 
-const koalasGameOne = 88;
-const koalasGameTwo = 91;
-const koalasGameThree = 110;
+// const koalasGameOne = 109;
+// const koalasGameTwo = 95;
+// const koalasGameThree = 123;
+
+const koalasGameOne = 109;
+const koalasGameTwo = 95;
+const koalasGameThree = 106;
 
 const koalasTotal = koalasGameOne + koalasGameTwo + koalasGameThree;
 console.log(koalasTotal);
@@ -18,12 +26,14 @@ console.log(koalasTotal);
 const koalasAverage = koalasTotal / 3;
 console.log(koalasAverage);
 
-if (dolphinsAverage > koalasAverage) {
+if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
     console.log('The DOLPHINS win the tournament!');
-} else if (koalasAverage > dolphinsAverage) {
+} else if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
     console.log('The KOALAS win the tournament!');
-} else {
+} else if (dolphinsAverage === koalasAverage && dolphinsAverage >= 100 & koalasAverage >= 100) {
     console.log("It's a DRAW...");
+} else {
+    console.log("No one has enough points to WIN the tournament!");
 }
 
 // Coding Challenge #3
