@@ -1,3 +1,8 @@
+
+
+/* ====================
+CODE FROM 24: LOGICAL OPERATORS
+
 const hasDriversLicense = true; // A
 const hasGoodVision = true; // B
 
@@ -19,9 +24,6 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 } else {
     console.log('Someone else should drive...');
 }
-
-/* ====================
-CODE FROM 24: LOGICAL OPERATORS
 
 ====================
 ==================== */
