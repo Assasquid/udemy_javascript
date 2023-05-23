@@ -1,3 +1,11 @@
+if (23 > 10) {
+    const str = '23 is bigger'; // The string itself is an expression, the whole line is a statement.
+    console.log(str);
+} // This is a statement, doesn't produce a value, it declares a variable.
+
+console.log(`I'm ${2023 - 1988} years old.`);
+// Only an expression can go in the template literal: ${}.
+
 /* ====================
 CODE FROM 27: STATEMENTS AND EXPRESSIONS
 
