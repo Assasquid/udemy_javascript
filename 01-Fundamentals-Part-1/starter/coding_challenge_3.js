@@ -1,38 +1,38 @@
-const dolphinsGameOne = 97;
-const dolphinsGameTwo = 112;
-const dolhpinsGameThree = 101;
+// const dolphinsGameOne = 97;
+// const dolphinsGameTwo = 112;
+// const dolhpinsGameThree = 101;
 
-const dolphinsTotal = dolphinsGameOne + dolphinsGameTwo + dolhpinsGameThree;
-console.log(`Dolphins total: ${dolphinsTotal} points`);
+// const dolphinsTotal = dolphinsGameOne + dolphinsGameTwo + dolhpinsGameThree;
+// console.log(`Dolphins total: ${dolphinsTotal} points`);
 
-const dolphinsAverage = dolphinsTotal / 3;
-console.log(`Dolphins average: ${dolphinsAverage} points`);
+// const dolphinsAverage = dolphinsTotal / 3;
+// console.log(`Dolphins average: ${dolphinsAverage} points`);
 
-// Course solution: const scoreDolphins = (96 + 108 + 89) / 3;
+// // Course solution: const scoreDolphins = (96 + 108 + 89) / 3;
 
-const koalasGameOne = 109;
-const koalasGameTwo = 95;
-const koalasGameThree = 106;
+// const koalasGameOne = 109;
+// const koalasGameTwo = 95;
+// const koalasGameThree = 106;
 
-const koalasTotal = koalasGameOne + koalasGameTwo + koalasGameThree;
-console.log(`Koalas Total: ${koalasTotal} points`);
+// const koalasTotal = koalasGameOne + koalasGameTwo + koalasGameThree;
+// console.log(`Koalas Total: ${koalasTotal} points`);
 
-const koalasAverage = koalasTotal / 3;
-console.log(`Koalas average: ${koalasAverage} points`);
+// const koalasAverage = koalasTotal / 3;
+// console.log(`Koalas average: ${koalasAverage} points`);
 
-// Course solution: const scoreKoalas = (88 + 91 + 110) / 3;
+// // Course solution: const scoreKoalas = (88 + 91 + 110) / 3;
 
-// Course solution: console.log(scoreDolphins, scoreKoalas);
+// // Course solution: console.log(scoreDolphins, scoreKoalas);
 
-if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
-    console.log('🐬 The DOLPHINS win the tournament! 🐬');
-} else if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
-    console.log('🐨 The KOALAS win the tournament! 🐨');
-} else if (dolphinsAverage === koalasAverage && dolphinsAverage >= 100 && koalasAverage >= 100) {
-    console.log("⚔️ It's a DRAW... ⚔️");
-} else {
-    console.log("😥 No one has enough points to WIN the tournament... 😥");
-}
+// if (dolphinsAverage > koalasAverage && dolphinsAverage >= 100) {
+//     console.log('🐬 The DOLPHINS win the tournament! 🐬');
+// } else if (koalasAverage > dolphinsAverage && koalasAverage >= 100) {
+//     console.log('🐨 The KOALAS win the tournament! 🐨');
+// } else if (dolphinsAverage === koalasAverage && dolphinsAverage >= 100 && koalasAverage >= 100) {
+//     console.log("⚔️ It's a DRAW... ⚔️");
+// } else {
+//     console.log("😥 No one has enough points to WIN the tournament... 😥");
+// }
 
 // Coding Challenge #3
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
