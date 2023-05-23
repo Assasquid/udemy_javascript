@@ -1,3 +1,13 @@
+/* ====================
+CODE FROM 27: STATEMENTS AND EXPRESSIONS
+
+====================
+==================== */
+
+
+/* ====================
+CODE FROM 26: THE SWITCH STATEMENT
+
 const day = 'monday';
 
 switch (day) {
@@ -38,10 +48,6 @@ if (day === 'monday') {
 } else {
     console.log('Not a valid day.');
 }
-
-
-/* ====================
-CODE FROM 26: THE SWITCH STATEMENT
 
 ====================
 ==================== */
