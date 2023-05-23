@@ -1,3 +1,14 @@
+/* ====================
+CODE FROM 28: THE CONDITIONAL (TERNARY) OPERATOR
+
+
+
+====================
+==================== */
+
+/* ====================
+CODE FROM 27: STATEMENTS AND EXPRESSIONS
+
 if (23 > 10) {
     const str = '23 is bigger'; // The string itself is an expression, the whole line is a statement.
     console.log(str);
@@ -5,9 +16,6 @@ if (23 > 10) {
 
 console.log(`I'm ${2023 - 1988} years old.`);
 // Only an expression can go in the template literal: ${}.
-
-/* ====================
-CODE FROM 27: STATEMENTS AND EXPRESSIONS
 
 ====================
 ==================== */
