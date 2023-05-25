@@ -18,6 +18,6 @@ Hints:
 GOOD LUCK 😀 */
 
 const bill = 275;
-let tip = bill >= 50 && bill <= 300 ? 0.15 : 0.2;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
-console.log(`The bill was ${bill}, the tip was ${bill * tip} and the total was ${bill + (bill * tip)} !`);
+console.log(`The bill was ${bill}, the tip was ${tip} and the total was ${bill + tip} !`);
