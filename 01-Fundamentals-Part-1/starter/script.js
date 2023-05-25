@@ -1,3 +1,13 @@
+/* ====================
+CODE FROM : 
+
+====================
+==================== */
+
+
+/* ====================
+CODE FROM 28: THE CONDITIONAL (TERNARY) OPERATOR
+
 const age = 34;
 age >= 18 ? console.log('I like to drink wine 🍷!') : console.log('I like to dring water 🥛 !');
 
@@ -18,13 +28,9 @@ console.log(drink2);
 // The ternary operator can be used in a template literal:
 console.log(`I like to drink ${age >= 18 ? 'wine 🍷3' : 'water 🥛3'} !`);
 
-/* ====================
-CODE FROM 28: THE CONDITIONAL (TERNARY) OPERATOR
-
-
-
 ====================
 ==================== */
+
 
 /* ====================
 CODE FROM 27: STATEMENTS AND EXPRESSIONS
