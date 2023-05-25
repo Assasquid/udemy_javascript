@@ -1,3 +1,23 @@
+const age = 34;
+age >= 18 ? console.log('I like to drink wine 🍷!') : console.log('I like to dring water 🥛 !');
+
+const drink = age >= 18 ? 'wine 🍷' : 'water 🥛';
+console.log(drink);
+console.log(`I like to drink ${drink} !`);
+
+// Could be written:
+let drink2;
+if (age >= 18) {
+    drink2 = 'wine🍷2';
+} else {
+    drink2 = 'water 🥛2';
+}
+
+console.log(drink2);
+
+// The ternary operator can be used in a template literal:
+console.log(`I like to drink ${age >= 18 ? 'wine 🍷3' : 'water 🥛3'} !`);
+
 /* ====================
 CODE FROM 28: THE CONDITIONAL (TERNARY) OPERATOR
 
