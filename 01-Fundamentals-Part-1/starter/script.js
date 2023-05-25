@@ -1,9 +1,14 @@
+// ⚠️ SECTION 3: JAVASCRIPT FUNDAMENTALS - PART 2 ⚠️
+
+
 /* ====================
-CODE FROM : 
+CODE FROM :
 
 ====================
 ==================== */
 
+
+// ⚠️ SECTION 2: JAVASCRIPT FUNDAMENTALS - PART 1 ⚠️
 
 /* ====================
 CODE FROM 28: THE CONDITIONAL (TERNARY) OPERATOR
